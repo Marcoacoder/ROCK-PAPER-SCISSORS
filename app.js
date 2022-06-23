@@ -26,7 +26,6 @@ function generateComputerChoice() {
     }
     computerChoiceDisplay.innerHTML = computerChoice;
     return computerChoice;
-    
 }
 
 function getResult() {
@@ -51,7 +50,6 @@ function getResult() {
     if (userChoice == "SCISSORS" && computerChoice == 'PAPER') {
         result = 'WIN';
     }
-
     resultDisplay.innerHTML = result;
     return result;
 }
